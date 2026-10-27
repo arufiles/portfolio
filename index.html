@@ -1,0 +1,305 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Arum Indri Portfolio</title>
+<script src="./vendor/react.js"></script>
+<script src="./vendor/react-dom.js"></script>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap">
+<style>
+body{margin:0}
+a{color:#0F766E}a:hover{color:#0B5A54}
+</style>
+</helmet>
+<div style="background:#F7F8FA;color:#101828;font-family:'Plus Jakarta Sans',system-ui,sans-serif;font-size:16px;line-height:1.65;overflow-x:clip">
+
+<!-- NAV -->
+<div style="position:sticky;top:0;z-index:50;background:#FFFFFF;border-bottom:1px solid #E4E7EC">
+<div style="max-width:1000px;margin:0 auto;padding:18px clamp(20px,5vw,40px);display:flex;flex-wrap:wrap;gap:12px 32px;justify-content:space-between;align-items:center">
+<div style="font-weight:800;font-size:18px">Arum Indri</div>
+<div style="display:flex;flex-wrap:wrap;gap:6px 24px;font-size:14px;font-weight:500">
+<a href="#about" style="text-decoration:none;color:#475467">About</a>
+<a href="#education" style="text-decoration:none;color:#475467">Education</a>
+<a href="#works" style="text-decoration:none;color:#475467">Works</a>
+<a href="#experience" style="text-decoration:none;color:#475467">Experience</a>
+<a href="#skills" style="text-decoration:none;color:#475467">Skills</a>
+<a href="#contact" style="text-decoration:none;color:#475467">Contact</a>
+</div>
+</div>
+</div>
+
+<!-- HERO -->
+<div style="background:#FFFFFF">
+<div style="max-width:1000px;margin:0 auto;padding:72px clamp(20px,5vw,40px) 80px;display:flex;flex-direction:column;gap:24px;align-items:flex-start">
+<div style="font-size:13px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:{{accent}}">Personal portfolio · 2026</div>
+<h1 style="margin:0;max-width:760px;font-weight:800;font-size:clamp(38px,6vw,64px);line-height:1.08;letter-spacing:-0.025em;text-wrap:balance">Turning details into meaningful work.</h1>
+<div style="font-size:15px;font-weight:600;padding:6px 14px;background:#E6F4F1;color:#0B5A54;border-radius:999px">Physics graduate · Data &amp; Operations Support</div>
+<p style="margin:0;max-width:600px;font-size:19px;color:#475467">Hi, I'm Arum Indri. I turn field measurements, records, and paperwork into clear, usable information.</p>
+<div style="display:flex;flex-wrap:wrap;gap:12px;margin-top:8px">
+<a href="#works" style="text-decoration:none;background:{{accent}};color:#FFFFFF;font-weight:600;font-size:15px;padding:12px 22px;border-radius:8px">View selected works</a>
+<a href="#contact" style="text-decoration:none;background:#FFFFFF;color:#101828;font-weight:600;font-size:15px;padding:12px 22px;border-radius:8px;border:1px solid #D0D5DD">Contact me</a>
+</div>
+</div>
+</div>
+
+<!-- ABOUT -->
+<div id="about" style="scroll-margin-top:64px;max-width:1000px;margin:0 auto;padding:88px clamp(20px,5vw,40px) 40px;display:flex;flex-direction:column;gap:32px">
+<div style="display:flex;flex-direction:column;gap:12px">
+<div style="font-size:13px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:{{accent}}">About me</div>
+<h2 style="margin:0;font-weight:800;font-size:clamp(28px,4vw,38px);line-height:1.15;letter-spacing:-0.02em;text-wrap:balance">Analytical, detail-minded, and organized.</h2>
+</div>
+<div style="max-width:720px;display:flex;flex-direction:column;gap:16px;color:#344054;font-size:17px">
+<p style="margin:0">I'm a Physics graduate from Universitas Negeri Malang with experience in geophysical fieldwork, disaster management support, administrative tasks, and organizational activities.</p>
+<p style="margin:0">My background has taught me to approach problems analytically, work with structured information, and pay attention to detail. From collecting field data and processing research results to managing documents and supporting daily operations, I enjoy work that brings clarity and structure to complex tasks.</p>
+<p style="margin:0;font-weight:600;color:#101828">Currently exploring opportunities in administration, operations, data management, and project support.</p>
+</div>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));gap:16px">
+<div style="background:#FFFFFF;border:1px solid #E4E7EC;border-radius:12px;padding:24px;display:flex;flex-direction:column;gap:8px">
+<h3 style="margin:0;font-weight:700;font-size:17px;line-height:1.3">Administration &amp; Documentation</h3>
+<p style="margin:0;color:#475467;font-size:15px">Document management, data entry, record keeping, and reporting support.</p>
+</div>
+<div style="background:#FFFFFF;border:1px solid #E4E7EC;border-radius:12px;padding:24px;display:flex;flex-direction:column;gap:8px">
+<h3 style="margin:0;font-weight:700;font-size:17px;line-height:1.3">Data &amp; Research</h3>
+<p style="margin:0;color:#475467;font-size:15px">Data collection, processing, analysis, and presenting findings clearly.</p>
+</div>
+<div style="background:#FFFFFF;border:1px solid #E4E7EC;border-radius:12px;padding:24px;display:flex;flex-direction:column;gap:8px">
+<h3 style="margin:0;font-weight:700;font-size:17px;line-height:1.3">Fieldwork &amp; Mapping</h3>
+<p style="margin:0;color:#475467;font-size:15px">Geophysical surveys, equipment operation, and geospatial data collection.</p>
+</div>
+<div style="background:#FFFFFF;border:1px solid #E4E7EC;border-radius:12px;padding:24px;display:flex;flex-direction:column;gap:8px">
+<h3 style="margin:0;font-weight:700;font-size:17px;line-height:1.3">Project &amp; Operational Support</h3>
+<p style="margin:0;color:#475467;font-size:15px">Activity coordination, field assistance, and supporting project workflows.</p>
+</div>
+</div>
+</div>
+
+<!-- EDUCATION -->
+<div id="education" style="scroll-margin-top:64px;max-width:1000px;margin:0 auto;padding:48px clamp(20px,5vw,40px);display:flex;flex-direction:column;gap:24px">
+<div style="display:flex;flex-direction:column;gap:12px">
+<div style="font-size:13px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:{{accent}}">Education &amp; languages</div>
+</div>
+<div style="display:flex;flex-wrap:wrap;gap:16px">
+<div style="flex:2 1 340px;min-width:0;background:#FFFFFF;border:1px solid #E4E7EC;border-radius:12px;padding:28px;display:flex;flex-direction:column;gap:8px">
+<h3 style="margin:0;font-weight:700;font-size:22px;line-height:1.25">Physics, Universitas Negeri Malang</h3>
+<div style="color:#475467;font-size:15px">Graduated [add year]</div>
+<p style="margin:0;color:#344054;font-size:15px">Thesis: GPR investigation of subsurface anomalies along the Wlingi Dam slope (2026).</p>
+</div>
+<div style="flex:1 1 240px;min-width:0;background:#FFFFFF;border:1px solid #E4E7EC;border-radius:12px;padding:28px;display:flex;flex-direction:column;gap:12px">
+<h3 style="margin:0;font-weight:700;font-size:17px">Languages</h3>
+<div style="display:flex;justify-content:space-between;gap:16px;font-size:15px"><span>Indonesian</span><span style="color:#475467">[add level]</span></div>
+<div style="display:flex;justify-content:space-between;gap:16px;font-size:15px"><span>English</span><span style="color:#475467">[add level]</span></div>
+</div>
+</div>
+</div>
+
+<!-- SELECTED WORKS -->
+<div id="works" style="scroll-margin-top:64px;max-width:1000px;margin:0 auto;padding:88px clamp(20px,5vw,40px) 40px;display:flex;flex-direction:column;gap:32px">
+<div style="display:flex;flex-direction:column;gap:12px">
+<div style="font-size:13px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:{{accent}}">Selected works</div>
+<h2 style="margin:0;font-weight:800;font-size:clamp(28px,4vw,38px);line-height:1.15;letter-spacing:-0.02em;text-wrap:balance">Four projects, from the field to the desk.</h2>
+</div>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,420px),1fr));gap:24px;align-items:start">
+
+<!-- Work 1 -->
+<div style="background:#FFFFFF;border:1px solid #E4E7EC;border-radius:16px;overflow:hidden;display:flex;flex-direction:column">
+<div style="aspect-ratio:16/9;background:#F2F4F7;border-bottom:2px dashed #98A2B3;display:flex;align-items:center;justify-content:center;text-align:center;padding:16px;font-size:14px;color:#475467">[Add photo: survey in the field at Ngajum]</div>
+<div style="padding:28px;display:flex;flex-direction:column;gap:14px">
+<div style="font-size:12px;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:{{accent}}">Groundwater exploration</div>
+<h3 style="margin:0;font-weight:800;font-size:24px;line-height:1.2;letter-spacing:-0.01em">Ngajum Geophysical Survey Project</h3>
+<div style="color:#475467;font-size:14px">Ngajum, Malang, East Java · With LSIMA · Research team / Field assistant</div>
+<p style="margin:0;color:#344054;font-size:15px">A lecturer-led project to find groundwater sources across multiple plots of land. I joined about six field visits, using several geophysical instruments to investigate the land.</p>
+<ul style="margin:0;padding-left:20px;display:flex;flex-direction:column;gap:6px;color:#344054;font-size:15px">
+<li>Took part in field measurements and land-area surveys.</li>
+<li>Operated Garmin GPS and supported geophysical survey equipment.</li>
+<li>Joined Self-Potential (SP), electrical resistivity, and PQWT groundwater surveys.</li>
+<li>Supported field documentation for groundwater exploration and drilling.</li>
+</ul>
+<div style="display:flex;flex-wrap:wrap;gap:6px;margin-top:2px">
+<span style="font-size:13px;font-weight:500;background:#E6F4F1;color:#0B5A54;padding:3px 10px;border-radius:999px">Electrical resistivity</span>
+<span style="font-size:13px;font-weight:500;background:#E6F4F1;color:#0B5A54;padding:3px 10px;border-radius:999px">SP</span>
+<span style="font-size:13px;font-weight:500;background:#E6F4F1;color:#0B5A54;padding:3px 10px;border-radius:999px">PQWT</span>
+<span style="font-size:13px;font-weight:500;background:#E6F4F1;color:#0B5A54;padding:3px 10px;border-radius:999px">Garmin GPS</span>
+</div>
+<div style="font-size:14px;color:#475467">[Add result: number of plots surveyed, drilling outcome]</div>
+</div>
+</div>
+
+<!-- Work 2 -->
+<div style="background:#FFFFFF;border:1px solid #E4E7EC;border-radius:16px;overflow:hidden;display:flex;flex-direction:column">
+<div style="aspect-ratio:16/9;background:#F2F4F7;border-bottom:2px dashed #98A2B3;display:flex;align-items:center;justify-content:center;text-align:center;padding:16px;font-size:14px;color:#475467">[Add image: processed radargram or field photo at Wlingi Dam]</div>
+<div style="padding:28px;display:flex;flex-direction:column;gap:14px">
+<div style="font-size:12px;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:{{accent}}">Research &amp; data analysis</div>
+<h3 style="margin:0;font-weight:800;font-size:24px;line-height:1.2;letter-spacing:-0.01em">GPR Investigation, Wlingi Dam</h3>
+<div style="color:#475467;font-size:14px">Undergraduate thesis · 2026</div>
+<p style="margin:0;color:#344054;font-size:15px">My thesis used Ground Penetrating Radar (GPR), which sends radar pulses into the ground, to look for hidden irregularities along the slope of the Wlingi Dam.</p>
+<ul style="margin:0;padding-left:20px;display:flex;flex-direction:column;gap:6px;color:#344054;font-size:15px">
+<li>Collected the field data with a 90 MHz GPR antenna.</li>
+<li>Cleaned the radargrams with several filtering techniques.</li>
+<li>Read the B-scan profiles and interpreted anomalous responses.</li>
+<li>Assessed whether they pointed to different subsurface materials or voids linked to possible seepage.</li>
+</ul>
+<div style="display:flex;flex-wrap:wrap;gap:6px;margin-top:2px">
+<span style="font-size:13px;font-weight:500;background:#E6F4F1;color:#0B5A54;padding:3px 10px;border-radius:999px">GPR</span>
+<span style="font-size:13px;font-weight:500;background:#E6F4F1;color:#0B5A54;padding:3px 10px;border-radius:999px">B-scan processing</span>
+<span style="font-size:13px;font-weight:500;background:#E6F4F1;color:#0B5A54;padding:3px 10px;border-radius:999px">Radargram interpretation</span>
+</div>
+<p style="margin:4px 0 0;padding:14px 16px;background:#F2F4F7;border-radius:8px;color:#344054;font-size:14px"><strong>Outcome.</strong> The radar showed irregular zones that may be different subsurface materials or small voids. The GPR data alone did not confirm active seepage.</p>
+</div>
+</div>
+
+<!-- Work 3 -->
+<div style="background:#FFFFFF;border:1px solid #E4E7EC;border-radius:16px;overflow:hidden;display:flex;flex-direction:column">
+<div style="aspect-ratio:16/9;background:#F2F4F7;border-bottom:2px dashed #98A2B3;display:flex;align-items:center;justify-content:center;text-align:center;padding:16px;font-size:14px;color:#475467">[Add photo or map: drone mapping or GNSS survey with BPBD]</div>
+<div style="padding:28px;display:flex;flex-direction:column;gap:14px">
+<div style="font-size:12px;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:{{accent}}">Fieldwork &amp; operations</div>
+<h3 style="margin:0;font-weight:800;font-size:24px;line-height:1.2;letter-spacing:-0.01em">Disaster Management Support, BPBD Kota Malang</h3>
+<div style="color:#475467;font-size:14px">Aug–Dec 2025</div>
+<p style="margin:0;color:#344054;font-size:15px">At the Malang City Regional Disaster Management Agency (BPBD), I supported disaster preparedness through field data collection, mapping, and documentation.</p>
+<ul style="margin:0;padding-left:20px;display:flex;flex-direction:column;gap:6px;color:#344054;font-size:15px">
+<li>Assisted with GNSS (satellite positioning) Base/Rover surveys and data capture in SW Maps.</li>
+<li>Took part in drone mapping activities.</li>
+<li>Supported disaster preparedness work, including SPAB, the disaster-safe school program.</li>
+<li>Helped keep field documentation and administrative records.</li>
+</ul>
+<div style="display:flex;flex-wrap:wrap;gap:6px;margin-top:2px">
+<span style="font-size:13px;font-weight:500;background:#E6F4F1;color:#0B5A54;padding:3px 10px;border-radius:999px">GNSS Base/Rover</span>
+<span style="font-size:13px;font-weight:500;background:#E6F4F1;color:#0B5A54;padding:3px 10px;border-radius:999px">SW Maps</span>
+<span style="font-size:13px;font-weight:500;background:#E6F4F1;color:#0B5A54;padding:3px 10px;border-radius:999px">Drone mapping</span>
+</div>
+</div>
+</div>
+
+<!-- Work 4 -->
+<div style="background:#FFFFFF;border:1px solid #E4E7EC;border-radius:16px;overflow:hidden;display:flex;flex-direction:column">
+<div style="aspect-ratio:16/9;background:#F2F4F7;border-bottom:2px dashed #98A2B3;display:flex;align-items:center;justify-content:center;text-align:center;padding:16px;font-size:14px;color:#475467">[Add sample: redacted document, draft, or publication design you reviewed]</div>
+<div style="padding:28px;display:flex;flex-direction:column;gap:14px">
+<div style="font-size:12px;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:{{accent}}">Documentation &amp; coordination</div>
+<h3 style="margin:0;font-weight:800;font-size:24px;line-height:1.2;letter-spacing:-0.01em">Legislative Administration, DMF MIPA UM</h3>
+<div style="color:#475467;font-size:14px">Feb–Dec 2025 · Secretary, Legislation and Legal Affairs Commission</div>
+<p style="margin:0;color:#344054;font-size:15px">In the student representative council of the Faculty of Mathematics and Natural Sciences at Universitas Negeri Malang, I supported legislative administration and documentation, keeping records accurate and organized.</p>
+<ul style="margin:0;padding-left:20px;display:flex;flex-direction:column;gap:6px;color:#344054;font-size:15px">
+<li>Managed administrative documents and legislative records.</li>
+<li>Supported drafting, public consultations, and hearings.</li>
+<li>Reviewed publication designs and captions before release.</li>
+</ul>
+<div style="display:flex;flex-wrap:wrap;gap:6px;margin-top:2px">
+<span style="font-size:13px;font-weight:500;background:#E6F4F1;color:#0B5A54;padding:3px 10px;border-radius:999px">Document management</span>
+<span style="font-size:13px;font-weight:500;background:#E6F4F1;color:#0B5A54;padding:3px 10px;border-radius:999px">Record keeping</span>
+<span style="font-size:13px;font-weight:500;background:#E6F4F1;color:#0B5A54;padding:3px 10px;border-radius:999px">Drafting support</span>
+</div>
+<div style="font-size:14px;color:#475467">[Add result: number of documents or hearings handled]</div>
+</div>
+</div>
+
+</div>
+</div>
+
+<!-- EXPERIENCE -->
+<div id="experience" style="scroll-margin-top:64px;max-width:1000px;margin:0 auto;padding:88px clamp(20px,5vw,40px) 40px;display:flex;flex-direction:column;gap:32px">
+<div style="display:flex;flex-direction:column;gap:12px">
+<div style="font-size:13px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:{{accent}}">Experience</div>
+<h2 style="margin:0;font-weight:800;font-size:clamp(28px,4vw,38px);line-height:1.15;letter-spacing:-0.02em;text-wrap:balance">Experience &amp; involvement</h2>
+</div>
+<div style="background:#FFFFFF;border:1px solid #E4E7EC;border-radius:16px;padding:8px 28px;display:flex;flex-direction:column">
+<div style="padding:20px 0;display:flex;flex-wrap:wrap;gap:4px 32px">
+<div style="flex:1 1 160px;min-width:0;font-size:14px;font-weight:600;color:{{accent}}">Feb–Dec 2025</div>
+<div style="flex:4 1 320px;min-width:0"><div style="font-weight:700">Secretary, Legislation and Legal Affairs Commission</div><div style="color:#475467;font-size:15px">DMF MIPA UM · see Selected Works</div></div>
+</div>
+<div style="padding:20px 0;border-top:1px solid #E4E7EC;display:flex;flex-wrap:wrap;gap:4px 32px">
+<div style="flex:1 1 160px;min-width:0;font-size:14px;font-weight:600;color:{{accent}}">Aug–Dec 2025</div>
+<div style="flex:4 1 320px;min-width:0"><div style="font-weight:700">Field &amp; Operational Support</div><div style="color:#475467;font-size:15px">BPBD Kota Malang · see Selected Works</div></div>
+</div>
+<div style="padding:20px 0;border-top:1px solid #E4E7EC;display:flex;flex-wrap:wrap;gap:4px 32px">
+<div style="flex:1 1 160px;min-width:0;font-size:14px;font-weight:600;color:{{accent}}">Feb–May 2025</div>
+<div style="flex:4 1 320px;min-width:0"><div style="font-weight:700">Optics Laboratory Teaching Assistant</div><div style="color:#475467;font-size:15px">Universitas Negeri Malang</div></div>
+</div>
+<div style="padding:20px 0;border-top:1px solid #E4E7EC;display:flex;flex-wrap:wrap;gap:4px 32px">
+<div style="flex:1 1 160px;min-width:0;font-size:14px;font-weight:600;color:{{accent}}">Feb–Dec 2024</div>
+<div style="flex:4 1 320px;min-width:0"><div style="font-weight:700">Legislative Instruments Commission Staff</div><div style="color:#475467;font-size:15px">DMF MIPA UM</div></div>
+</div>
+<div style="padding:20px 0;border-top:1px solid #E4E7EC;display:flex;flex-wrap:wrap;gap:4px 32px">
+<div style="flex:1 1 160px;min-width:0;font-size:14px;font-weight:600;color:{{accent}}">2024</div>
+<div style="flex:4 1 320px;min-width:0"><div style="font-weight:700">Student Orientation Liaison Officer</div><div style="color:#475467;font-size:15px">Universitas Negeri Malang</div></div>
+</div>
+<div style="padding:20px 0;border-top:1px solid #E4E7EC;display:flex;flex-wrap:wrap;gap:4px 32px">
+<div style="flex:1 1 160px;min-width:0;font-size:14px;font-weight:600;color:{{accent}}">Aug 2023–Jan 2025</div>
+<div style="flex:4 1 320px;min-width:0"><div style="font-weight:700">E-commerce Packer &amp; Administrative Support</div><div style="color:#475467;font-size:15px">Mother's Touch Indonesia</div><div style="color:#344054;font-size:15px;margin-top:4px">Processed shipping labels across Shopee, TikTok Shop, and Tokopedia, handled order data entry, and supported about 45–60 orders per day.</div></div>
+</div>
+</div>
+</div>
+
+<!-- SKILLS -->
+<div id="skills" style="scroll-margin-top:64px;max-width:1000px;margin:0 auto;padding:88px clamp(20px,5vw,40px) 40px;display:flex;flex-direction:column;gap:32px">
+<div style="display:flex;flex-direction:column;gap:12px">
+<div style="font-size:13px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:{{accent}}">Tools &amp; skills</div>
+<h2 style="margin:0;font-weight:800;font-size:clamp(28px,4vw,38px);line-height:1.15;letter-spacing:-0.02em;text-wrap:balance">What I work with.</h2>
+<p style="margin:0;max-width:640px;color:#475467;font-size:15px">I used GPR processing for my Wlingi thesis, and GNSS Base/Rover and SW Maps during my work with BPBD. [Add where you used Excel, QGIS, MATLAB, and SQL.]</p>
+</div>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr));gap:16px">
+<div style="background:#FFFFFF;border:1px solid #E4E7EC;border-radius:12px;padding:24px;display:flex;flex-direction:column;gap:14px">
+<h3 style="margin:0;font-weight:700;font-size:17px">Office &amp; productivity</h3>
+<div style="display:flex;flex-wrap:wrap;gap:8px">
+<span style="font-size:14px;background:#F2F4F7;padding:4px 12px;border-radius:999px">Microsoft Excel (Basic)</span>
+<span style="font-size:14px;background:#F2F4F7;padding:4px 12px;border-radius:999px">Microsoft Word</span>
+<span style="font-size:14px;background:#F2F4F7;padding:4px 12px;border-radius:999px">PowerPoint</span>
+<span style="font-size:14px;background:#F2F4F7;padding:4px 12px;border-radius:999px">Google Workspace</span>
+</div>
+</div>
+<div style="background:#FFFFFF;border:1px solid #E4E7EC;border-radius:12px;padding:24px;display:flex;flex-direction:column;gap:14px">
+<h3 style="margin:0;font-weight:700;font-size:17px">Data &amp; technical</h3>
+<div style="display:flex;flex-wrap:wrap;gap:8px">
+<span style="font-size:14px;background:#F2F4F7;padding:4px 12px;border-radius:999px">QGIS</span>
+<span style="font-size:14px;background:#F2F4F7;padding:4px 12px;border-radius:999px">MATLAB</span>
+<span style="font-size:14px;background:#F2F4F7;padding:4px 12px;border-radius:999px">SQL (Fundamentals)</span>
+<span style="font-size:14px;background:#F2F4F7;padding:4px 12px;border-radius:999px">SW Maps</span>
+<span style="font-size:14px;background:#F2F4F7;padding:4px 12px;border-radius:999px">GNSS Base/Rover</span>
+<span style="font-size:14px;background:#F2F4F7;padding:4px 12px;border-radius:999px">GPR Processing</span>
+</div>
+</div>
+<div style="background:#FFFFFF;border:1px solid #E4E7EC;border-radius:12px;padding:24px;display:flex;flex-direction:column;gap:14px">
+<h3 style="margin:0;font-weight:700;font-size:17px">Professional skills</h3>
+<div style="display:flex;flex-wrap:wrap;gap:8px">
+<span style="font-size:14px;background:#F2F4F7;padding:4px 12px;border-radius:999px">Data Entry</span>
+<span style="font-size:14px;background:#F2F4F7;padding:4px 12px;border-radius:999px">Document Management</span>
+<span style="font-size:14px;background:#F2F4F7;padding:4px 12px;border-radius:999px">Field Data Collection</span>
+<span style="font-size:14px;background:#F2F4F7;padding:4px 12px;border-radius:999px">Research Support</span>
+<span style="font-size:14px;background:#F2F4F7;padding:4px 12px;border-radius:999px">Coordination</span>
+</div>
+</div>
+</div>
+</div>
+
+<!-- CONTACT -->
+<div id="contact" style="scroll-margin-top:64px;max-width:1000px;margin:0 auto;padding:88px clamp(20px,5vw,40px) 96px">
+<div style="background:#101828;color:#F9FAFB;border-radius:20px;padding:clamp(28px,5vw,56px);display:flex;flex-direction:column;gap:20px;align-items:flex-start">
+<div style="font-size:13px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:#7FD0C7">Let's connect</div>
+<h2 style="margin:0;font-weight:800;font-size:clamp(30px,5vw,46px);line-height:1.1;letter-spacing:-0.02em;text-wrap:balance">Let's make things work.</h2>
+<p style="margin:0;max-width:560px;font-size:17px;color:#D0D5DD">Open to opportunities in administration, operations, data management, and project support.</p>
+<div style="display:flex;flex-direction:column;gap:6px;font-size:15px;color:#F9FAFB">
+<span>Arum Indri · Malang, East Java, Indonesia</span>
+<span>[Email address]</span>
+<span>[LinkedIn URL]</span>
+<span style="color:#D0D5DD">Available from [add month] · Open to [Malang / relocation / remote]</span>
+</div>
+<div style="font-size:15px;font-weight:600;padding:12px 22px;background:#7FD0C7;color:#101828;border-radius:8px">Download CV [add link]</div>
+</div>
+</div>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"accent":{"editor":"color","default":"#0F766E","options":["#0F766E","#2F5D8A","#6D4C9F","#B3541E"]},"$preview":{"width":1280,"height":5200}}'>
+class Component extends DCLogic {
+renderVals() {
+return { accent: this.props.accent ?? '#0F766E' };
+}
+}
+</script>
+</body>
+</html>
